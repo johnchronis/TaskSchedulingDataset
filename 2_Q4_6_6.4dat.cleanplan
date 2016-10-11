@@ -1,0 +1,340 @@
+{
+  "containers": [
+    {
+      "name": "c0"
+    },
+    {
+      "name": "c1"
+    },
+    {
+      "name": "c2"
+    }
+  ],
+  "operators": [
+    {
+      "container": "c0",
+      "name": "R_sub_exists_0",
+      "resources": {
+        "cpu_PER": 33.10120481927707,
+        "memory_PER": 20.0,
+        "memory_EO_PER": 4.0,
+        "disk_MB": 0.0,
+        "time_MS": 80759
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_sub_exists_1",
+      "resources": {
+        "cpu_PER": 31.797356828193834,
+        "memory_PER": 42.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 0.0,
+        "time_MS": 87456
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_sub_exists_2",
+      "resources": {
+        "cpu_PER": 31.745672436750997,
+        "memory_PER": 35.0,
+        "memory_EO_PER": 4.0,
+        "disk_MB": 0.0,
+        "time_MS": 153738
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_sub_exists_3",
+      "resources": {
+        "cpu_PER": 33.91990291262134,
+        "memory_PER": 20.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 0.0,
+        "time_MS": 80207
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_sub_exists_4",
+      "resources": {
+        "cpu_PER": 30.394736842105264,
+        "memory_PER": 43.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 0.0,
+        "time_MS": 87665
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_sub_exists_5",
+      "resources": {
+        "cpu_PER": 30.396596858638745,
+        "memory_PER": 35.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 0.0,
+        "time_MS": 156334
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_result_partial_0",
+      "resources": {
+        "cpu_PER": 34.06818181818184,
+        "memory_PER": 19.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 34077
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_result_partial_1",
+      "resources": {
+        "cpu_PER": 29.556603773584907,
+        "memory_PER": 42.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 40659
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_result_partial_2",
+      "resources": {
+        "cpu_PER": 29.244239631336406,
+        "memory_PER": 34.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 0.03125,
+        "time_MS": 43832
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_result_partial_3",
+      "resources": {
+        "cpu_PER": 34.15853658536582,
+        "memory_PER": 19.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 31687
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_result_partial_4",
+      "resources": {
+        "cpu_PER": 28.77720207253886,
+        "memory_PER": 42.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 36975
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_result_partial_5",
+      "resources": {
+        "cpu_PER": 29.85840707964601,
+        "memory_PER": 34.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 0.03125,
+        "time_MS": 45433
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_q4_result_12_temp_0",
+      "resources": {
+        "cpu_PER": 38.333333333333336,
+        "memory_PER": 18.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.0,
+        "time_MS": 730
+      }
+    }
+  ],
+  "op_links": [
+    {
+      "container": "c0",
+      "from": "R_sub_exists_0",
+      "to": "R_result_partial_0",
+      "parameters": [
+        [
+          "table",
+          "sub_exists"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_sub_exists_1",
+      "to": "R_result_partial_1",
+      "parameters": [
+        [
+          "table",
+          "sub_exists"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_sub_exists_2",
+      "to": "R_result_partial_2",
+      "parameters": [
+        [
+          "table",
+          "sub_exists"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_sub_exists_3",
+      "to": "R_result_partial_3",
+      "parameters": [
+        [
+          "table",
+          "sub_exists"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_sub_exists_4",
+      "to": "R_result_partial_4",
+      "parameters": [
+        [
+          "table",
+          "sub_exists"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_sub_exists_5",
+      "to": "R_result_partial_5",
+      "parameters": [
+        [
+          "table",
+          "sub_exists"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_result_partial_0",
+      "to": "R_q4_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "result_partial"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_result_partial_1",
+      "to": "R_q4_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "result_partial"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_result_partial_2",
+      "to": "R_q4_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "result_partial"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_result_partial_3",
+      "to": "R_q4_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "result_partial"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_result_partial_4",
+      "to": "R_q4_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "result_partial"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_result_partial_5",
+      "to": "R_q4_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "result_partial"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2608 @@
+{
+  "containers": [
+    {
+      "name": "c0"
+    },
+    {
+      "name": "c1"
+    },
+    {
+      "name": "c2"
+    }
+  ],
+  "operators": [
+    {
+      "container": "c0",
+      "name": "R_orders_filtered_0",
+      "resources": {
+        "cpu_PER": 38.43478260869565,
+        "memory_PER": 18.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 59.625,
+        "time_MS": 13456
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_orders_filtered_1",
+      "resources": {
+        "cpu_PER": 31.853932584269657,
+        "memory_PER": 40.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 59.625,
+        "time_MS": 17216
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_orders_filtered_2",
+      "resources": {
+        "cpu_PER": 31.12568306010929,
+        "memory_PER": 33.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 59.59375,
+        "time_MS": 37217
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_orders_filtered_3",
+      "resources": {
+        "cpu_PER": 38.95890410958904,
+        "memory_PER": 18.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 59.625,
+        "time_MS": 14288
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_orders_filtered_4",
+      "resources": {
+        "cpu_PER": 28.1123595505618,
+        "memory_PER": 41.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 59.609375,
+        "time_MS": 17178
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_orders_filtered_5",
+      "resources": {
+        "cpu_PER": 29.8125,
+        "memory_PER": 34.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 59.578125,
+        "time_MS": 39308
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_oc_join_0",
+      "resources": {
+        "cpu_PER": 34.25,
+        "memory_PER": 19.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 0.1875,
+        "time_MS": 791
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_oc_join_1",
+      "resources": {
+        "cpu_PER": 34.03097345132743,
+        "memory_PER": 43.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 132.984375,
+        "time_MS": 43667
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_oc_join_2",
+      "resources": {
+        "cpu_PER": 33.102702702702686,
+        "memory_PER": 35.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 66.546875,
+        "time_MS": 36769
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_oc_join_3",
+      "resources": {
+        "cpu_PER": 36.75,
+        "memory_PER": 19.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 0.1875,
+        "time_MS": 795
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_oc_join_4",
+      "resources": {
+        "cpu_PER": 34.004347826086956,
+        "memory_PER": 44.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 132.984375,
+        "time_MS": 44450
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_oc_join_5",
+      "resources": {
+        "cpu_PER": 33.02487562189053,
+        "memory_PER": 35.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 66.5,
+        "time_MS": 39835
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_ocl_join_0",
+      "resources": {
+        "cpu_PER": 33.20593080724875,
+        "memory_PER": 21.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 319.828125,
+        "time_MS": 119743
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_ocl_join_1",
+      "resources": {
+        "cpu_PER": 31.315541601255887,
+        "memory_PER": 44.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 319.84375,
+        "time_MS": 122831
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_ocl_join_2",
+      "resources": {
+        "cpu_PER": 31.001823154056517,
+        "memory_PER": 36.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 319.671875,
+        "time_MS": 220537
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_ocl_join_3",
+      "resources": {
+        "cpu_PER": 31.62932454695224,
+        "memory_PER": 22.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 320.0,
+        "time_MS": 119336
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_ocl_join_4",
+      "resources": {
+        "cpu_PER": 33.250388802488324,
+        "memory_PER": 44.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 319.671875,
+        "time_MS": 123928
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_ocl_join_5",
+      "resources": {
+        "cpu_PER": 31.145650048875854,
+        "memory_PER": 37.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 319.515625,
+        "time_MS": 203394
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_nrs_join_0",
+      "resources": {
+        "cpu_PER": 35.5,
+        "memory_PER": 18.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.859375,
+        "time_MS": 1328
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_nrs_join_1",
+      "resources": {
+        "cpu_PER": 32.285714285714285,
+        "memory_PER": 41.0,
+        "memory_EO_PER": 1.0,
+        "disk_MB": 0.859375,
+        "time_MS": 1331
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_nrs_join_2",
+      "resources": {
+        "cpu_PER": 38.09090909090909,
+        "memory_PER": 34.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.84375,
+        "time_MS": 2292
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_nrs_join_3",
+      "resources": {
+        "cpu_PER": 42.0,
+        "memory_PER": 18.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.859375,
+        "time_MS": 1174
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_nrs_join_4",
+      "resources": {
+        "cpu_PER": 35.5,
+        "memory_PER": 41.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.859375,
+        "time_MS": 1176
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_nrs_join_5",
+      "resources": {
+        "cpu_PER": 33.111111111111114,
+        "memory_PER": 34.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.84375,
+        "time_MS": 1977
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_nrscol_join_0",
+      "resources": {
+        "cpu_PER": 31.571428571428573,
+        "memory_PER": 22.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 10939
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_nrscol_join_1",
+      "resources": {
+        "cpu_PER": 35.9056603773585,
+        "memory_PER": 45.0,
+        "memory_EO_PER": 3.0,
+        "disk_MB": 0.03125,
+        "time_MS": 10216
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_nrscol_join_2",
+      "resources": {
+        "cpu_PER": 33.45205479452055,
+        "memory_PER": 37.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 14819
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_nrscol_join_3",
+      "resources": {
+        "cpu_PER": 33.62745098039215,
+        "memory_PER": 22.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 9974
+      }
+    },
+    {
+      "container": "c1",
+      "name": "R_nrscol_join_4",
+      "resources": {
+        "cpu_PER": 35.69230769230769,
+        "memory_PER": 45.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 10129
+      }
+    },
+    {
+      "container": "c2",
+      "name": "R_nrscol_join_5",
+      "resources": {
+        "cpu_PER": 35.2923076923077,
+        "memory_PER": 37.0,
+        "memory_EO_PER": 2.0,
+        "disk_MB": 0.03125,
+        "time_MS": 12857
+      }
+    },
+    {
+      "container": "c0",
+      "name": "R_q5_result_12_temp_0",
+      "resources": {
+        "cpu_PER": 68.66666666666667,
+        "memory_PER": 20.0,
+        "memory_EO_PER": 0.0,
+        "disk_MB": 0.0,
+        "time_MS": 740
+      }
+    }
+  ],
+  "op_links": [
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_0",
+      "to": "R_oc_join_0",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_1",
+      "to": "R_oc_join_0",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_2",
+      "to": "R_oc_join_0",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_3",
+      "to": "R_oc_join_0",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_4",
+      "to": "R_oc_join_0",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_5",
+      "to": "R_oc_join_0",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_0",
+      "to": "R_oc_join_1",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_1",
+      "to": "R_oc_join_1",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_2",
+      "to": "R_oc_join_1",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_3",
+      "to": "R_oc_join_1",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_4",
+      "to": "R_oc_join_1",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_5",
+      "to": "R_oc_join_1",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_0",
+      "to": "R_oc_join_2",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_1",
+      "to": "R_oc_join_2",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_2",
+      "to": "R_oc_join_2",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_3",
+      "to": "R_oc_join_2",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_4",
+      "to": "R_oc_join_2",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_5",
+      "to": "R_oc_join_2",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_0",
+      "to": "R_oc_join_3",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_1",
+      "to": "R_oc_join_3",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_2",
+      "to": "R_oc_join_3",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_3",
+      "to": "R_oc_join_3",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_4",
+      "to": "R_oc_join_3",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_5",
+      "to": "R_oc_join_3",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_0",
+      "to": "R_oc_join_4",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_1",
+      "to": "R_oc_join_4",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_2",
+      "to": "R_oc_join_4",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_3",
+      "to": "R_oc_join_4",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_4",
+      "to": "R_oc_join_4",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_5",
+      "to": "R_oc_join_4",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_0",
+      "to": "R_oc_join_5",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_1",
+      "to": "R_oc_join_5",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_2",
+      "to": "R_oc_join_5",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_orders_filtered_3",
+      "to": "R_oc_join_5",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_orders_filtered_4",
+      "to": "R_oc_join_5",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_orders_filtered_5",
+      "to": "R_oc_join_5",
+      "parameters": [
+        [
+          "table",
+          "orders_filtered"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_0",
+      "to": "R_ocl_join_0",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_1",
+      "to": "R_ocl_join_0",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_2",
+      "to": "R_ocl_join_0",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_3",
+      "to": "R_ocl_join_0",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_4",
+      "to": "R_ocl_join_0",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_5",
+      "to": "R_ocl_join_0",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_0",
+      "to": "R_ocl_join_1",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_1",
+      "to": "R_ocl_join_1",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_2",
+      "to": "R_ocl_join_1",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_3",
+      "to": "R_ocl_join_1",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_4",
+      "to": "R_ocl_join_1",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_5",
+      "to": "R_ocl_join_1",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_0",
+      "to": "R_ocl_join_2",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_1",
+      "to": "R_ocl_join_2",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_2",
+      "to": "R_ocl_join_2",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_3",
+      "to": "R_ocl_join_2",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_4",
+      "to": "R_ocl_join_2",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_5",
+      "to": "R_ocl_join_2",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_0",
+      "to": "R_ocl_join_3",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_1",
+      "to": "R_ocl_join_3",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_2",
+      "to": "R_ocl_join_3",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_3",
+      "to": "R_ocl_join_3",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_4",
+      "to": "R_ocl_join_3",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_5",
+      "to": "R_ocl_join_3",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_0",
+      "to": "R_ocl_join_4",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_1",
+      "to": "R_ocl_join_4",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_2",
+      "to": "R_ocl_join_4",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_3",
+      "to": "R_ocl_join_4",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_4",
+      "to": "R_ocl_join_4",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_5",
+      "to": "R_ocl_join_4",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_0",
+      "to": "R_ocl_join_5",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_1",
+      "to": "R_ocl_join_5",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_2",
+      "to": "R_ocl_join_5",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_oc_join_3",
+      "to": "R_ocl_join_5",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_oc_join_4",
+      "to": "R_ocl_join_5",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_oc_join_5",
+      "to": "R_ocl_join_5",
+      "parameters": [
+        [
+          "table",
+          "oc_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_0",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_1",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_2",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_3",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_4",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_5",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_0",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_1",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_2",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_3",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_4",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_5",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_0",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_1",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_2",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_3",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_4",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_5",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_0",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_1",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_2",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_3",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_4",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_5",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_0",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_1",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_2",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_3",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_4",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_5",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_0",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_1",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_2",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_ocl_join_3",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_ocl_join_4",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_ocl_join_5",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "ocl_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_0",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_1",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_2",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_3",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_4",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_5",
+      "to": "R_nrscol_join_0",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_0",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_1",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_2",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_3",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_4",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_5",
+      "to": "R_nrscol_join_1",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          1
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_0",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_1",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_2",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_3",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_4",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_5",
+      "to": "R_nrscol_join_2",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          2
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_0",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_1",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_2",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_3",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_4",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_5",
+      "to": "R_nrscol_join_3",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          3
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_0",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_1",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_2",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_3",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_4",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_5",
+      "to": "R_nrscol_join_4",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          4
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_0",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_1",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_2",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrs_join_3",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrs_join_4",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrs_join_5",
+      "to": "R_nrscol_join_5",
+      "parameters": [
+        [
+          "table",
+          "nrs_join"
+        ],
+        [
+          "part",
+          5
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrscol_join_0",
+      "to": "R_q5_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "nrscol_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrscol_join_1",
+      "to": "R_q5_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "nrscol_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrscol_join_2",
+      "to": "R_q5_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "nrscol_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c0",
+      "from": "R_nrscol_join_3",
+      "to": "R_q5_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "nrscol_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c1",
+      "from": "R_nrscol_join_4",
+      "to": "R_q5_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "nrscol_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    },
+    {
+      "container": "c2",
+      "from": "R_nrscol_join_5",
+      "to": "R_q5_result_12_temp_0",
+      "parameters": [
+        [
+          "table",
+          "nrscol_join"
+        ],
+        [
+          "part",
+          0
+        ]
+      ]
+    }
+  ]
+}
