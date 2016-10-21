@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.8.2/vis.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.8.2/vis.min.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        #mynetwork {
+            width: 1000;
+            height: 800px;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+<p> Operators: 7</p><div id="mynetwork"></div>
+
+<script type="text/javascript"> var nodes = new vis.DataSet([
+
+{id: 1, label: 'R_lineitem_partial_0',color: 'rgb(24,45,15)'},
+{id: 2, label: 'R_lineitem_partial_1',color: 'rgb(17,127,175)'},
+{id: 3, label: 'R_lineitem_partial_2',color: 'rgb(202,5,104)'},
+{id: 4, label: 'R_lineitem_partial_3',color: 'rgb(24,45,15)'},
+{id: 5, label: 'R_lineitem_partial_4',color: 'rgb(17,127,175)'},
+{id: 6, label: 'R_lineitem_partial_5',color: 'rgb(202,5,104)'},
+{id: 7, label: 'R_q6_result_12_temp_0',color: 'rgb(24,45,15)'}]);
+ var edges = new vis.DataSet([
+
+{from: 1, to: 7},
+{from: 2, to: 7},
+{from: 3, to: 7},
+{from: 4, to: 7},
+{from: 5, to: 7},
+{from: 6, to: 7} ]);
+var container = document.getElementById('mynetwork');var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = {
+ layout: { hierarchical: {   sortMethod: "directed" }      },        edges:{
+        arrows: {
+          to:     {enabled: true, scaleFactor:1},
+        }
+    }
+    };
+var network = new vis.Network(container, data, options);
+</script>
+   
+</body>
+</html>
